@@ -1,0 +1,106 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - E-Commerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img class="logo" src="https://cdn-icons-png.flaticon.com/512/8539/8539259.png" alt="ShopLogo" />
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <div class="category-bar">
+    <a href="#">Mobile</a>
+    <a href="#">Laptops</a>
+    <a href="#">Fashion</a>
+    <a href="#">Shoes</a>
+    <a href="#">Accessories</a>
+  </div>
+
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/uber_new_high._CB537689643_.jpg" alt="Slide 1">
+    </div>
+    <div class="slide fade">
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/OHL_Events/img25/HSS/June/2/Lifestyle_PC_3000x1200_2._CB793290104_.jpg" alt="Slide 2">
+    </div>
+    <div class="slide fade">
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Img25/Consumables/Jun/GW/PC_Hero_3000x1200_5._CB793347875_.jpg" alt="Slide 3">
+      
+    </div>
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/uber_new_high._CB537689643_.jpg" alt="Slide 3">
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Our Store</h1>
+      <p>Find amazing deals on top products.</p>
+      <p>Fast & Free Shipping on all orders.</p>
+      <p>Top-rated products from trusted brands.</p>
+      <a href="products.html" class="btn">Shop Now</a>
+    </div>
+  </section>
+  <div id="hot-msg" class="hot-msg"></div>
+<section class="about-store">
+  <h2>Why Shop With Us?</h2>
+  <ul>
+    <li>🚚 Fast & Free Shipping on all orders</li>
+    <li>🔒 Secure Payments & Easy Checkout</li>
+    <li>⭐ Top-rated products from trusted brands</li>
+    <li>💬 24/7 Customer Support</li>
+    <li>🎁 Exclusive deals and seasonal offers</li>
+  </ul>
+</section>
+
+<section class="featured-products">
+  <h2>🔥 Featured Products</h2>
+  <div class="products-grid">
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/61uF50OZzuL._SX679_.jpg" alt="Boult Q Over Ear Bluetooth Headphones" />
+      <h3>Boult Q Over Ear Bluetooth Headphones</h3>
+      <p>₹1,799</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71k3gOik46L._AC_UL480_FMwebp_QL65_.jpg" alt="Sony WH-CH520 Wireless Headphones" />
+      <h3>Sony WH-CH520 Wireless Headphones</h3>
+      <p>₹3,988</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/51ljnEaW0pL._SX679_.jpg" alt="Running Shoes" />
+      <h3>Sony PlayStation5 Gaming Console (Slim)</h3>
+      <p>₹54,990</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <h2>📬 Subscribe to our Newsletter</h2>
+  <p>Get the latest deals and updates straight to your inbox.</p>
+  <form>
+    <input type="email" placeholder="Enter your email" required />
+    <button type="submit" class="btn">Subscribe</button>
+  </form>
+</section>
+
+  <footer class="footer">
+    <p>© 2025 E-Commerce Store</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
